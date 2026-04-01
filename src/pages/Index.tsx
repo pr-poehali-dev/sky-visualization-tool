@@ -80,8 +80,8 @@ const Index = () => {
           </div>
         </nav>
 
-        {/* Cute Colorful Alpacas Row */}
-        <div className="absolute bottom-0 left-0 right-0 z-10 flex items-end justify-center gap-4 px-8 pointer-events-none select-none overflow-hidden">
+        {/* Cute Colorful Alpacas Row - removed */}
+        <div className="hidden">
           {/* Alpaca 1 - Pink */}
           <svg width="90" height="110" viewBox="0 0 90 110" fill="none" xmlns="http://www.w3.org/2000/svg" className="drop-shadow-lg translate-y-2">
             {/* Ears */}
