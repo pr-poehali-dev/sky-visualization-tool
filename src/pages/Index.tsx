@@ -58,7 +58,7 @@ const Index = () => {
           {/* Logo */}
           <div className="flex items-center gap-2 px-4 py-2 bg-[#f5f0e6]/80 ring-1 ring-[#c17f3b]/30 backdrop-blur rounded-full">
             <Icon name="PawPrint" size={20} className="text-[#c17f3b]" />
-            <span className="font-medium text-[#2d3a1e]">Альпака Ферма</span>
+            <span className="font-medium text-[#2d3a1e]">Ферма «Пушистые друзья»</span>
           </div>
 
           {/* Navigation Links */}
@@ -80,8 +80,211 @@ const Index = () => {
           </div>
         </nav>
 
+        {/* Cute Colorful Alpacas Row */}
+        <div className="absolute bottom-0 left-0 right-0 z-10 flex items-end justify-center gap-4 px-8 pointer-events-none select-none overflow-hidden">
+          {/* Alpaca 1 - Pink */}
+          <svg width="90" height="110" viewBox="0 0 90 110" fill="none" xmlns="http://www.w3.org/2000/svg" className="drop-shadow-lg translate-y-2">
+            {/* Ears */}
+            <ellipse cx="28" cy="18" rx="7" ry="11" fill="#f8b4c8" transform="rotate(-15 28 18)"/>
+            <ellipse cx="28" cy="18" rx="4" ry="7" fill="#f48fb1" transform="rotate(-15 28 18)"/>
+            <ellipse cx="62" cy="18" rx="7" ry="11" fill="#f8b4c8" transform="rotate(15 62 18)"/>
+            <ellipse cx="62" cy="18" rx="4" ry="7" fill="#f48fb1" transform="rotate(15 62 18)"/>
+            {/* Head */}
+            <ellipse cx="45" cy="38" rx="22" ry="24" fill="#fce4ec"/>
+            {/* Fluffy top */}
+            <ellipse cx="38" cy="22" rx="10" ry="8" fill="#f8bbd0"/>
+            <ellipse cx="45" cy="19" rx="11" ry="8" fill="#fce4ec"/>
+            <ellipse cx="53" cy="22" rx="10" ry="8" fill="#f8bbd0"/>
+            {/* Eyes */}
+            <circle cx="37" cy="37" r="5" fill="white"/>
+            <circle cx="53" cy="37" r="5" fill="white"/>
+            <circle cx="38" cy="38" r="3" fill="#1a1a2e"/>
+            <circle cx="54" cy="38" r="3" fill="#1a1a2e"/>
+            <circle cx="39" cy="37" r="1" fill="white"/>
+            <circle cx="55" cy="37" r="1" fill="white"/>
+            {/* Blush */}
+            <ellipse cx="32" cy="44" rx="6" ry="4" fill="#f48fb1" opacity="0.5"/>
+            <ellipse cx="58" cy="44" rx="6" ry="4" fill="#f48fb1" opacity="0.5"/>
+            {/* Nose */}
+            <ellipse cx="45" cy="48" rx="6" ry="4" fill="#f48fb1"/>
+            <circle cx="43" cy="48" r="1.5" fill="#c2185b"/>
+            <circle cx="47" cy="48" r="1.5" fill="#c2185b"/>
+            {/* Smile */}
+            <path d="M40 52 Q45 56 50 52" stroke="#c2185b" strokeWidth="1.5" fill="none" strokeLinecap="round"/>
+            {/* Body */}
+            <ellipse cx="45" cy="88" rx="28" ry="22" fill="#f8bbd0"/>
+            {/* Neck */}
+            <rect x="37" y="58" width="16" height="16" rx="8" fill="#fce4ec"/>
+            {/* Legs */}
+            <rect x="24" y="104" width="10" height="6" rx="3" fill="#f48fb1"/>
+            <rect x="37" y="104" width="10" height="6" rx="3" fill="#f48fb1"/>
+            <rect x="50" y="104" width="10" height="6" rx="3" fill="#f48fb1"/>
+            <rect x="63" y="104" width="10" height="6" rx="3" fill="#f48fb1"/>
+          </svg>
+
+          {/* Alpaca 2 - Mint/Green (tall) */}
+          <svg width="100" height="125" viewBox="0 0 100 125" fill="none" xmlns="http://www.w3.org/2000/svg" className="drop-shadow-lg">
+            {/* Ears */}
+            <ellipse cx="30" cy="20" rx="8" ry="13" fill="#a5d6a7" transform="rotate(-12 30 20)"/>
+            <ellipse cx="30" cy="20" rx="5" ry="8" fill="#66bb6a" transform="rotate(-12 30 20)"/>
+            <ellipse cx="70" cy="20" rx="8" ry="13" fill="#a5d6a7" transform="rotate(12 70 20)"/>
+            <ellipse cx="70" cy="20" rx="5" ry="8" fill="#66bb6a" transform="rotate(12 70 20)"/>
+            {/* Fluffy top */}
+            <ellipse cx="40" cy="24" rx="13" ry="10" fill="#c8e6c9"/>
+            <ellipse cx="50" cy="20" rx="14" ry="10" fill="#e8f5e9"/>
+            <ellipse cx="62" cy="24" rx="13" ry="10" fill="#c8e6c9"/>
+            {/* Head */}
+            <ellipse cx="50" cy="44" rx="25" ry="27" fill="#e8f5e9"/>
+            {/* Eyes */}
+            <circle cx="40" cy="43" r="6" fill="white"/>
+            <circle cx="60" cy="43" r="6" fill="white"/>
+            <circle cx="41" cy="44" r="3.5" fill="#1a1a2e"/>
+            <circle cx="61" cy="44" r="3.5" fill="#1a1a2e"/>
+            <circle cx="42" cy="43" r="1.2" fill="white"/>
+            <circle cx="62" cy="43" r="1.2" fill="white"/>
+            {/* Blush */}
+            <ellipse cx="33" cy="51" rx="7" ry="4.5" fill="#a5d6a7" opacity="0.6"/>
+            <ellipse cx="67" cy="51" rx="7" ry="4.5" fill="#a5d6a7" opacity="0.6"/>
+            {/* Nose */}
+            <ellipse cx="50" cy="55" rx="7" ry="5" fill="#a5d6a7"/>
+            <circle cx="47" cy="55" r="2" fill="#388e3c"/>
+            <circle cx="53" cy="55" r="2" fill="#388e3c"/>
+            {/* Smile */}
+            <path d="M44 60 Q50 65 56 60" stroke="#388e3c" strokeWidth="1.8" fill="none" strokeLinecap="round"/>
+            {/* Body */}
+            <ellipse cx="50" cy="102" rx="32" ry="24" fill="#c8e6c9"/>
+            {/* Neck */}
+            <rect x="41" y="67" width="18" height="20" rx="9" fill="#e8f5e9"/>
+            {/* Legs */}
+            <rect x="26" y="118" width="11" height="7" rx="3.5" fill="#a5d6a7"/>
+            <rect x="40" y="118" width="11" height="7" rx="3.5" fill="#a5d6a7"/>
+            <rect x="54" y="118" width="11" height="7" rx="3.5" fill="#a5d6a7"/>
+            <rect x="68" y="118" width="11" height="7" rx="3.5" fill="#a5d6a7"/>
+          </svg>
+
+          {/* Alpaca 3 - Lavender (center, biggest) */}
+          <svg width="115" height="138" viewBox="0 0 115 138" fill="none" xmlns="http://www.w3.org/2000/svg" className="drop-shadow-xl -translate-y-2">
+            {/* Ears */}
+            <ellipse cx="34" cy="22" rx="9" ry="14" fill="#ce93d8" transform="rotate(-10 34 22)"/>
+            <ellipse cx="34" cy="22" rx="6" ry="9" fill="#ab47bc" transform="rotate(-10 34 22)"/>
+            <ellipse cx="81" cy="22" rx="9" ry="14" fill="#ce93d8" transform="rotate(10 81 22)"/>
+            <ellipse cx="81" cy="22" rx="6" ry="9" fill="#ab47bc" transform="rotate(10 81 22)"/>
+            {/* Fluffy top */}
+            <ellipse cx="43" cy="27" rx="15" ry="12" fill="#e1bee7"/>
+            <ellipse cx="57" cy="22" rx="17" ry="12" fill="#f3e5f5"/>
+            <ellipse cx="72" cy="27" rx="15" ry="12" fill="#e1bee7"/>
+            {/* Head */}
+            <ellipse cx="57" cy="52" rx="29" ry="31" fill="#f3e5f5"/>
+            {/* Eyes */}
+            <circle cx="45" cy="50" r="7" fill="white"/>
+            <circle cx="69" cy="50" r="7" fill="white"/>
+            <circle cx="46" cy="51" r="4" fill="#1a1a2e"/>
+            <circle cx="70" cy="51" r="4" fill="#1a1a2e"/>
+            <circle cx="47" cy="50" r="1.5" fill="white"/>
+            <circle cx="71" cy="50" r="1.5" fill="white"/>
+            {/* Blush */}
+            <ellipse cx="36" cy="60" rx="8" ry="5" fill="#ce93d8" opacity="0.55"/>
+            <ellipse cx="78" cy="60" rx="8" ry="5" fill="#ce93d8" opacity="0.55"/>
+            {/* Nose */}
+            <ellipse cx="57" cy="65" rx="8" ry="6" fill="#ce93d8"/>
+            <circle cx="53" cy="65" r="2.2" fill="#7b1fa2"/>
+            <circle cx="61" cy="65" r="2.2" fill="#7b1fa2"/>
+            {/* Smile */}
+            <path d="M50 71 Q57 77 64 71" stroke="#7b1fa2" strokeWidth="2" fill="none" strokeLinecap="round"/>
+            {/* Body */}
+            <ellipse cx="57" cy="116" rx="37" ry="27" fill="#e1bee7"/>
+            {/* Neck */}
+            <rect x="46" y="79" width="22" height="24" rx="11" fill="#f3e5f5"/>
+            {/* Legs */}
+            <rect x="28" y="133" width="13" height="5" rx="2.5" fill="#ce93d8"/>
+            <rect x="44" y="133" width="13" height="5" rx="2.5" fill="#ce93d8"/>
+            <rect x="60" y="133" width="13" height="5" rx="2.5" fill="#ce93d8"/>
+            <rect x="76" y="133" width="13" height="5" rx="2.5" fill="#ce93d8"/>
+          </svg>
+
+          {/* Alpaca 4 - Yellow/Peach */}
+          <svg width="100" height="122" viewBox="0 0 100 122" fill="none" xmlns="http://www.w3.org/2000/svg" className="drop-shadow-lg">
+            {/* Ears */}
+            <ellipse cx="30" cy="19" rx="8" ry="12" fill="#ffe082" transform="rotate(-13 30 19)"/>
+            <ellipse cx="30" cy="19" rx="5" ry="7.5" fill="#ffd740" transform="rotate(-13 30 19)"/>
+            <ellipse cx="70" cy="19" rx="8" ry="12" fill="#ffe082" transform="rotate(13 70 19)"/>
+            <ellipse cx="70" cy="19" rx="5" ry="7.5" fill="#ffd740" transform="rotate(13 70 19)"/>
+            {/* Fluffy top */}
+            <ellipse cx="40" cy="23" rx="13" ry="10" fill="#fff9c4"/>
+            <ellipse cx="50" cy="19" rx="14" ry="10" fill="#fffde7"/>
+            <ellipse cx="61" cy="23" rx="13" ry="10" fill="#fff9c4"/>
+            {/* Head */}
+            <ellipse cx="50" cy="43" rx="26" ry="28" fill="#fffde7"/>
+            {/* Eyes */}
+            <circle cx="39" cy="42" r="6" fill="white"/>
+            <circle cx="61" cy="42" r="6" fill="white"/>
+            <circle cx="40" cy="43" r="3.5" fill="#1a1a2e"/>
+            <circle cx="62" cy="43" r="3.5" fill="#1a1a2e"/>
+            <circle cx="41" cy="42" r="1.2" fill="white"/>
+            <circle cx="63" cy="42" r="1.2" fill="white"/>
+            {/* Blush */}
+            <ellipse cx="32" cy="50" rx="7" ry="4.5" fill="#ffcc80" opacity="0.65"/>
+            <ellipse cx="68" cy="50" rx="7" ry="4.5" fill="#ffcc80" opacity="0.65"/>
+            {/* Nose */}
+            <ellipse cx="50" cy="54" rx="7" ry="5" fill="#ffe082"/>
+            <circle cx="47" cy="54" r="2" fill="#f57f17"/>
+            <circle cx="53" cy="54" r="2" fill="#f57f17"/>
+            {/* Smile */}
+            <path d="M44 59 Q50 65 56 59" stroke="#f57f17" strokeWidth="1.8" fill="none" strokeLinecap="round"/>
+            {/* Body */}
+            <ellipse cx="50" cy="100" rx="32" ry="23" fill="#fff9c4"/>
+            {/* Neck */}
+            <rect x="41" y="67" width="18" height="19" rx="9" fill="#fffde7"/>
+            {/* Legs */}
+            <rect x="26" y="115" width="11" height="7" rx="3.5" fill="#ffe082"/>
+            <rect x="40" y="115" width="11" height="7" rx="3.5" fill="#ffe082"/>
+            <rect x="54" y="115" width="11" height="7" rx="3.5" fill="#ffe082"/>
+            <rect x="68" y="115" width="11" height="7" rx="3.5" fill="#ffe082"/>
+          </svg>
+
+          {/* Alpaca 5 - Sky Blue */}
+          <svg width="88" height="108" viewBox="0 0 88 108" fill="none" xmlns="http://www.w3.org/2000/svg" className="drop-shadow-lg translate-y-3">
+            {/* Ears */}
+            <ellipse cx="26" cy="17" rx="7" ry="11" fill="#81d4fa" transform="rotate(-15 26 17)"/>
+            <ellipse cx="26" cy="17" rx="4" ry="7" fill="#29b6f6" transform="rotate(-15 26 17)"/>
+            <ellipse cx="62" cy="17" rx="7" ry="11" fill="#81d4fa" transform="rotate(15 62 17)"/>
+            <ellipse cx="62" cy="17" rx="4" ry="7" fill="#29b6f6" transform="rotate(15 62 17)"/>
+            {/* Fluffy top */}
+            <ellipse cx="36" cy="21" rx="11" ry="9" fill="#b3e5fc"/>
+            <ellipse cx="44" cy="17" rx="12" ry="9" fill="#e1f5fe"/>
+            <ellipse cx="53" cy="21" rx="11" ry="9" fill="#b3e5fc"/>
+            {/* Head */}
+            <ellipse cx="44" cy="38" rx="22" ry="24" fill="#e1f5fe"/>
+            {/* Eyes */}
+            <circle cx="35" cy="37" r="5" fill="white"/>
+            <circle cx="53" cy="37" r="5" fill="white"/>
+            <circle cx="36" cy="38" r="3" fill="#1a1a2e"/>
+            <circle cx="54" cy="38" r="3" fill="#1a1a2e"/>
+            <circle cx="37" cy="37" r="1" fill="white"/>
+            <circle cx="55" cy="37" r="1" fill="white"/>
+            {/* Blush */}
+            <ellipse cx="30" cy="44" rx="6" ry="4" fill="#81d4fa" opacity="0.6"/>
+            <ellipse cx="58" cy="44" rx="6" ry="4" fill="#81d4fa" opacity="0.6"/>
+            {/* Nose */}
+            <ellipse cx="44" cy="48" rx="6" ry="4" fill="#81d4fa"/>
+            <circle cx="41.5" cy="48" r="1.5" fill="#0277bd"/>
+            <circle cx="46.5" cy="48" r="1.5" fill="#0277bd"/>
+            {/* Smile */}
+            <path d="M38 52 Q44 57 50 52" stroke="#0277bd" strokeWidth="1.5" fill="none" strokeLinecap="round"/>
+            {/* Body */}
+            <ellipse cx="44" cy="86" rx="28" ry="22" fill="#b3e5fc"/>
+            {/* Neck */}
+            <rect x="36" y="58" width="16" height="16" rx="8" fill="#e1f5fe"/>
+            {/* Legs */}
+            <rect x="23" y="101" width="10" height="7" rx="3" fill="#81d4fa"/>
+            <rect x="36" y="101" width="10" height="7" rx="3" fill="#81d4fa"/>
+            <rect x="49" y="101" width="10" height="7" rx="3" fill="#81d4fa"/>
+            <rect x="62" y="101" width="10" height="7" rx="3" fill="#81d4fa"/>
+          </svg>
+        </div>
+
         {/* Hero Content */}
-        <div className="relative z-10 flex flex-col items-center justify-center min-h-[calc(100vh-120px)] px-6 text-center">
+        <div className="relative z-10 flex flex-col items-center justify-center min-h-[calc(100vh-120px)] px-6 text-center pb-28">
           {/* Badge */}
           <div className="mb-6 px-4 py-2 bg-[#f5f0e6]/80 ring-1 ring-[#c17f3b]/30 backdrop-blur rounded-full">
             <span className="text-sm font-medium text-[#2d3a1e]">✨ Жемчужина Золотого Кольца · Суздаль</span>
