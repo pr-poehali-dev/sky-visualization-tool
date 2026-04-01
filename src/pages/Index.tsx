@@ -46,7 +46,7 @@ const Index = () => {
         <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
-            backgroundImage: `url(https://cdn.poehali.dev/projects/c4f8ad74-6370-4946-ba9b-2f2ef3af9c4e/files/bb800458-46d9-4a50-ae95-0e798f814033.jpg)`,
+            backgroundImage: `url(https://cdn.poehali.dev/projects/c4f8ad74-6370-4946-ba9b-2f2ef3af9c4e/files/505c2c6b-814a-4094-8166-c71e17a15408.jpg)`,
             backgroundPosition: "center 30%",
           }}
         >
@@ -333,7 +333,7 @@ const Index = () => {
             <div className="rounded-2xl bg-white ring-1 ring-[#b8d4a0]/60 shadow-sm overflow-hidden text-center flex flex-col hover:shadow-md transition-shadow">
               <div className="h-56 overflow-hidden">
                 <img
-                  src="https://cdn.poehali.dev/projects/c4f8ad74-6370-4946-ba9b-2f2ef3af9c4e/files/b7a546d4-4512-4f2d-b096-24ce9db403c6.jpg"
+                  src="https://cdn.poehali.dev/projects/c4f8ad74-6370-4946-ba9b-2f2ef3af9c4e/files/2746beec-dec3-4ae3-bca8-1506dbba4485.jpg"
                   alt="Альпаки"
                   className="w-full h-full object-cover"
                 />
