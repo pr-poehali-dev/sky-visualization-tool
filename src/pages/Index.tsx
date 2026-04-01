@@ -46,7 +46,7 @@ const Index = () => {
         <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
-            backgroundImage: `url(https://cdn.poehali.dev/projects/c4f8ad74-6370-4946-ba9b-2f2ef3af9c4e/files/2ce1ac57-9dca-46ef-8b79-6272450e696f.jpg)`,
+            backgroundImage: `url(https://cdn.poehali.dev/projects/c4f8ad74-6370-4946-ba9b-2f2ef3af9c4e/files/3ae5cf73-3efa-4fea-8674-94afb4d79029.jpg)`,
           }}
         >
           <div className="absolute inset-0 bg-gradient-to-b from-black/40 to-black/80" />
@@ -121,39 +121,75 @@ const Index = () => {
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-8">
             {/* Alpacas */}
-            <div className="rounded-2xl bg-black/20 ring-1 ring-white/15 backdrop-blur p-8 text-center">
-              <div className="inline-flex items-center justify-center w-12 h-12 rounded-xl bg-black/30 ring-1 ring-white/20 mb-6">
-                <Sparkles className="w-6 h-6" />
+            <div className="rounded-2xl bg-black/20 ring-1 ring-white/15 backdrop-blur overflow-hidden text-center flex flex-col">
+              <div className="h-52 overflow-hidden">
+                <img
+                  src="https://cdn.poehali.dev/projects/c4f8ad74-6370-4946-ba9b-2f2ef3af9c4e/files/90d64a75-cf6d-48dd-8747-90b0302527ec.jpg"
+                  alt="Альпаки"
+                  className="w-full h-full object-cover"
+                />
               </div>
-              <h3 className="text-xl font-semibold mb-4">Главные звёзды — альпаки</h3>
-              <p className="text-white/80 leading-relaxed">Пушистые и добрые, они обожают общение и с удовольствием едят с руки.</p>
+              <div className="p-8 flex flex-col items-center flex-1">
+                <div className="inline-flex items-center justify-center w-12 h-12 rounded-xl bg-black/30 ring-1 ring-white/20 mb-6">
+                  <Sparkles className="w-6 h-6" />
+                </div>
+                <h3 className="text-xl font-semibold mb-4">Главные звёзды — альпаки</h3>
+                <p className="text-white/80 leading-relaxed">Пушистые и добрые, они обожают общение и с удовольствием едят с руки.</p>
+              </div>
             </div>
 
             {/* Rare breeds */}
-            <div className="rounded-2xl bg-black/20 ring-1 ring-white/15 backdrop-blur p-8 text-center">
-              <div className="inline-flex items-center justify-center w-12 h-12 rounded-xl bg-black/30 ring-1 ring-white/20 mb-6">
-                <Icon name="Star" size={24} />
+            <div className="rounded-2xl bg-black/20 ring-1 ring-white/15 backdrop-blur overflow-hidden text-center flex flex-col">
+              <div className="h-52 overflow-hidden">
+                <img
+                  src="https://cdn.poehali.dev/projects/c4f8ad74-6370-4946-ba9b-2f2ef3af9c4e/files/f83949a8-4e32-4797-b1b6-62350800a4fb.jpg"
+                  alt="Редкие породы"
+                  className="w-full h-full object-cover"
+                />
               </div>
-              <h3 className="text-xl font-semibold mb-4">Редкие породы</h3>
-              <p className="text-white/80 leading-relaxed">Козы, овцы и кролики — уникальные породы, которых не встретишь в обычном зоопарке.</p>
+              <div className="p-8 flex flex-col items-center flex-1">
+                <div className="inline-flex items-center justify-center w-12 h-12 rounded-xl bg-black/30 ring-1 ring-white/20 mb-6">
+                  <Icon name="Star" size={24} />
+                </div>
+                <h3 className="text-xl font-semibold mb-4">Редкие породы</h3>
+                <p className="text-white/80 leading-relaxed">Козы, овцы и кролики — уникальные породы, которых не встретишь в обычном зоопарке.</p>
+              </div>
             </div>
 
             {/* School programs */}
-            <div className="rounded-2xl bg-black/20 ring-1 ring-white/15 backdrop-blur p-8 text-center">
-              <div className="inline-flex items-center justify-center w-12 h-12 rounded-xl bg-black/30 ring-1 ring-white/20 mb-6">
-                <Users className="w-6 h-6" />
+            <div className="rounded-2xl bg-black/20 ring-1 ring-white/15 backdrop-blur overflow-hidden text-center flex flex-col">
+              <div className="h-52 overflow-hidden">
+                <img
+                  src="https://cdn.poehali.dev/projects/c4f8ad74-6370-4946-ba9b-2f2ef3af9c4e/files/1f3ed933-7b71-4d84-84b9-8fc8a65a3ad1.jpg"
+                  alt="Школьные программы"
+                  className="w-full h-full object-cover"
+                />
               </div>
-              <h3 className="text-xl font-semibold mb-4">Школьные программы</h3>
-              <p className="text-white/80 leading-relaxed">Образовательные экскурсии с интерактивными уроками о животноводстве и природе.</p>
+              <div className="p-8 flex flex-col items-center flex-1">
+                <div className="inline-flex items-center justify-center w-12 h-12 rounded-xl bg-black/30 ring-1 ring-white/20 mb-6">
+                  <Users className="w-6 h-6" />
+                </div>
+                <h3 className="text-xl font-semibold mb-4">Школьные программы</h3>
+                <p className="text-white/80 leading-relaxed">Образовательные экскурсии с интерактивными уроками о животноводстве и природе.</p>
+              </div>
             </div>
 
             {/* Eco farm */}
-            <div className="rounded-2xl bg-black/20 ring-1 ring-white/15 backdrop-blur p-8 text-center">
-              <div className="inline-flex items-center justify-center w-12 h-12 rounded-xl bg-black/30 ring-1 ring-white/20 mb-6">
-                <Leaf className="w-6 h-6" />
+            <div className="rounded-2xl bg-black/20 ring-1 ring-white/15 backdrop-blur overflow-hidden text-center flex flex-col">
+              <div className="h-52 overflow-hidden">
+                <img
+                  src="https://cdn.poehali.dev/projects/c4f8ad74-6370-4946-ba9b-2f2ef3af9c4e/files/eb7b8d0e-1558-4734-bd85-7c1fe867a74e.jpg"
+                  alt="Экоферма"
+                  className="w-full h-full object-cover"
+                />
               </div>
-              <h3 className="text-xl font-semibold mb-4">Экоферма</h3>
-              <p className="text-white/80 leading-relaxed">Мы бережём природу и воспитываем любовь к животным у каждого гостя.</p>
+              <div className="p-8 flex flex-col items-center flex-1">
+                <div className="inline-flex items-center justify-center w-12 h-12 rounded-xl bg-black/30 ring-1 ring-white/20 mb-6">
+                  <Leaf className="w-6 h-6" />
+                </div>
+                <h3 className="text-xl font-semibold mb-4">Экоферма</h3>
+                <p className="text-white/80 leading-relaxed">Мы бережём природу и воспитываем любовь к животным у каждого гостя.</p>
+              </div>
             </div>
           </div>
         </div>
